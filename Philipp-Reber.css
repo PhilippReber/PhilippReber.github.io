@@ -238,9 +238,9 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  font-weight: 500;
   font-size: 1.5rem;
-  margin: -402px calc(((100% - 1280px) / 2) + 565px) 60px calc(((100% - 1280px) / 2));
+  font-weight: 500;
+  margin: -401px calc(((100% - 1280px) / 2) + 565px) 60px calc(((100% - 1280px) / 2));
 }
 
 @media (max-width: 1199px) {
@@ -250,7 +250,6 @@
 
   .u-section-2 .u-text-1 {
     width: 674px;
-    margin-top: -401px;
     margin-left: calc(((100% - 940px) / 2));
     margin-right: calc(((100% - 940px) / 2) + 225px);
   }
