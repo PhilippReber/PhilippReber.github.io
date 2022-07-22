@@ -1,0 +1,230 @@
+ .u-section-1 {
+  background-image: url("images/milad-fakurian-58Z17lnVS4U-unsplash.jpeg");
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 856px;
+}
+
+.u-section-1 .u-group-elements-1 {
+  width: 180px;
+  min-height: 100px;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  height: auto;
+  margin: 237px 368px 0 auto;
+}
+
+.u-section-1 .u-shape-1 {
+  width: 176px;
+  height: 66px;
+  margin: 25px 0 0 auto;
+}
+
+.u-section-1 .u-text-1 {
+  margin: -91px 0 0 47px;
+}
+
+.u-section-1 .u-shape-2 {
+  width: 10px;
+  height: 10px;
+  margin: 58px 170px 0 0;
+}
+
+.u-section-1 .u-group-elements-2 {
+  width: 180px;
+  min-height: 100px;
+  height: auto;
+  --animation-custom_in-scale: 1;
+  margin: -74px auto 0 314px;
+}
+
+.u-section-1 .u-shape-3 {
+  width: 176px;
+  height: 66px;
+  margin: 25px 6px 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin: -91px 47px 0 0;
+}
+
+.u-section-1 .u-shape-4 {
+  width: 10px;
+  height: 10px;
+  margin: 58px 0 0 auto;
+}
+
+.u-section-1 .u-group-elements-3 {
+  width: 195px;
+  min-height: 100px;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  height: auto;
+  margin: -13px 242px 0 auto;
+}
+
+.u-section-1 .u-shape-5 {
+  width: 191px;
+  height: 66px;
+  margin: 25px 0 0 auto;
+}
+
+.u-section-1 .u-text-3 {
+  margin: -91px 0 0 29px;
+}
+
+.u-section-1 .u-shape-6 {
+  width: 10px;
+  height: 10px;
+  margin: 58px 185px 0 0;
+}
+
+.u-section-1 .u-group-elements-4 {
+  width: 180px;
+  min-height: 82px;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  height: auto;
+  margin: 11px auto 0 336px;
+}
+
+.u-section-1 .u-shape-7 {
+  width: 176px;
+  height: 66px;
+  margin: 10px 4px 0 0;
+}
+
+.u-section-1 .u-text-4 {
+  margin: -26px 47px 0 0;
+}
+
+.u-section-1 .u-shape-8 {
+  width: 10px;
+  height: 10px;
+  margin: -82px 0 0 auto;
+}
+
+.u-section-1 .u-text-5 {
+  font-size: 3rem;
+  text-transform: none;
+  font-weight: 700;
+  width: 477px;
+  margin: 62px auto 0;
+}
+
+.u-section-1 .u-text-6 {
+  width: 466px;
+  margin: 0 auto;
+}
+
+.u-section-1 .u-btn-1 {
+  border-style: none;
+  font-size: 0.875rem;
+  background-image: none;
+  --animation-custom_in-translate_y: 300px;
+  --animation-custom_in-scale: 1;
+  margin: 37px auto 60px;
+  padding: 8px 35px 9px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 706px;
+  }
+
+  .u-section-1 .u-group-elements-2 {
+    --animation-custom_in-translate_x: 0px;
+    --animation-custom_in-translate_y: 0px;
+    --animation-custom_in-opacity: 0;
+    --animation-custom_in-rotate: 0deg;
+  }
+
+  .u-section-1 .u-text-6 {
+    margin-left: 11px;
+  }
+
+  .u-section-1 .u-btn-1 {
+    --animation-custom_in-translate_x: 0px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 541px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 406px;
+  }
+
+  .u-section-1 .u-group-elements-1 {
+    margin-right: 360px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 256px;
+  }
+
+  .u-section-1 .u-group-elements-1 {
+    margin-right: 160px;
+  }
+
+  .u-section-1 .u-group-elements-2 {
+    margin-left: 160px;
+  }
+
+  .u-section-1 .u-group-elements-3 {
+    margin-right: 145px;
+  }
+
+  .u-section-1 .u-group-elements-4 {
+    margin-left: 160px;
+  }
+
+  .u-section-1 .u-text-5 {
+    width: 340px;
+  }
+
+  .u-section-1 .u-text-6 {
+    width: 340px;
+  }
+} .u-section-2 {
+  min-height: 100vh;
+}
+
+.u-section-2 .u-text-1 {
+  font-weight: 700;
+  --animation-custom_in-translate_x: 0px;
+  --animation-custom_in-translate_y: 0px;
+  --animation-custom_in-opacity: 0;
+  --animation-custom_in-rotate: 0deg;
+  --animation-custom_in-scale: 1;
+  width: 674px;
+  margin: 149px auto 0;
+}
+
+@media (max-width: 767px) {
+  .u-section-2 .u-text-1 {
+    width: 540px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-2 .u-text-1 {
+    width: 340px;
+  }
+}
