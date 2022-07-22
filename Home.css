@@ -17,13 +17,17 @@
   border-style: none;
   font-size: 0.875rem;
   background-image: none;
-  margin: 40px auto 60px 20px;
+  margin: 40px auto 60px 19px;
   padding: 8px 35px 9px;
 }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-text-2 {
     margin-right: 0;
+  }
+
+  .u-section-1 .u-btn-1 {
+    margin-left: 0;
   }
 }
 
