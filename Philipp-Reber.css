@@ -21,7 +21,6 @@
 .u-section-1 .u-group-2 {
   width: 316px;
   min-height: 210px;
-  height: auto;
   margin: 0 auto 0 146px;
 }
 
@@ -72,10 +71,6 @@
 }
 
 @media (max-width: 1199px) {
-  .u-section-1 .u-group-2 {
-    height: auto;
-  }
-
   .u-section-1 .u-btn-1 {
     --animation-custom_in-translate_x: 0px;
   }
@@ -147,13 +142,14 @@
   color: #293332 !important;
 } .u-section-2 {
   background-image: none;
-  min-height: 809px;
+  min-height: 751px;
 }
 
 .u-section-2 .u-group-1 {
   width: 1090px;
   min-height: 501px;
-  margin: 89px calc(((100% - 1280px) / 2) + 70px) 60px auto;
+  height: auto;
+  margin: 60px calc(((100% - 1280px) / 2) + 70px) 60px auto;
 }
 
 .u-section-2 .u-image-1 {
@@ -188,7 +184,6 @@
 .u-section-2 .u-group-2 {
   width: 671px;
   min-height: 428px;
-  height: auto;
   margin: 8px auto -123px 0;
 }
 
@@ -235,7 +230,6 @@
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
   transition-duration: 0.5s;
-  height: auto;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   margin: -61px 151px 0 auto;
 }
@@ -264,7 +258,6 @@
   min-height: 81px;
   transition-duration: 0.5s;
   --animation-custom_in-scale: 1;
-  height: auto;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
   margin: 19px 151px 0 auto;
 }
@@ -293,7 +286,6 @@
   min-height: 81px;
   transition-duration: 0.5s;
   --animation-custom_in-scale: 1;
-  height: auto;
   margin: 14px 151px 0 auto;
 }
 
@@ -338,6 +330,7 @@
   .u-section-2 .u-group-1 {
     width: 940px;
     margin-right: calc(((100% - 940px) / 2));
+    height: auto;
   }
 
   .u-section-2 .u-text-1 {
@@ -345,7 +338,15 @@
     margin-left: 0;
   }
 
-  .u-section-2 .u-group-2 {
+  .u-section-2 .u-group-elements-3 {
+    height: auto;
+  }
+
+  .u-section-2 .u-group-elements-4 {
+    height: auto;
+  }
+
+  .u-section-2 .u-group-elements-5 {
     height: auto;
   }
 }
@@ -601,13 +602,13 @@
 }
 
 .u-section-3 .u-btn-1 {
-  font-size: 0.875rem;
+  font-size: 0.75rem;
   letter-spacing: 1px;
   transition-duration: 0.5s;
   border-style: none;
   text-transform: uppercase;
   transform: translateX(0px) translateY(0px) scale(1) rotate(0deg);
-  font-weight: normal;
+  font-weight: 400;
   margin: 21px auto 0 20px;
   padding: 12px 32px 13px 30px;
 }
@@ -706,8 +707,6 @@
   }
 
   .u-section-3 .u-btn-1 {
-    font-size: 0.75rem;
-    font-weight: 400;
     margin-top: 18px;
     margin-left: 2px;
     padding: 5px 17px 5px 16px;
