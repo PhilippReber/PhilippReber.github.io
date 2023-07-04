@@ -1,55 +1,37 @@
-<link href="./home.css" rel="stylesheet" />
-<link href="./style.css" rel="stylesheet" />
+<link href="./style.css" rel="stylesheet"/>
 
 <head>
-  <!-- <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap" rel="stylesheet" data-tag="font"/> -->
   <title>Philipp Reber</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-  <div class="home_contain_landing">
-    <div class="home_contain_landing_mid">
-      <div class="home_contain_image">
-        <img class="home_image" src="./assets/headshot_squared_optimized.jpeg" alt="image" />
-      </div>
-      <div class="home_ctn-center">
-        <div class="home_contain_center_text">
-          <h1 class="home_name">Philipp Reber</h1>
-          <div class="home_contain_text_typed">
-            <span class="text_static_1">I'm</span><span class="text_typed_1">&nbsp;a Neuroscientist</span><span class="text_typed_2">&nbsp;an Engineer</span><span class="text_typed_3">&nbsp;a Psychologist</span><span class="cursor">|</span>
-          </div>
-          <span class="text_bio">
-            In my work with <a href="https://www.magnetictides.com/" class="text_links" target="_blank">Magnetic Tides Inc.</a> at UC Berkeley
-            I build novel adaptive brain stimulation systems to decode and support cognition. 
-          </span>
-          
-          <button class="button_flat" role="button" onclick="copy_email()" target="_top", id="email_button">
-              <span>Email</span>
-          </button>
-          <!-- <button class="button_flat" role="button" onclick="scroll_to()">
-            <span>Projects</span>
-          </button> -->
-          
-          <button class="button_flat" role="button" onclick="window.open('https://scholar.google.com/citations?user=8vNAr1IAAAAJ')" target="_blank">
-            <span>Publications</span>
-          </button>
-          <button class="button_flat" role="button" onclick="window.open('https://github.com/PhilippReber')" target="_blank">
-            <span>Code</span>
-          <button class="button_flat" role="button" onclick="window.open('./files/REBER_Resume_Mar23.pdf')" target="_blank">
-            <span>Resume</span>
-          </button>
-          </button>
-        </div>  
-        
-        <div class="social_bar">
-          <button class="button_social", role="button" onclick="window.open('https://twitter.com/reberphil')" target="_blank">
+  <div class="ctn-landing">
+    <div class="ctn-portrait">
+      <img class="portrait" src="./assets/portrait_gold.jpg" alt="image" />
+    </div>
+    <div class="header">
+      <span class="header-head">I'm Philipp Reber – neuroscientist, psychologist and engineer</span>
+      <span class="header-text">I develop novel forms of <span class="text-highlight">adaptive non-invasive brain stimulation</span> to decode 
+      human cognition and develop more effective treatments of mental disorders.</span>
+    </div>
+    <div class="ctn-section-1">
+      <div class="ctn-left">
+        <div class="ctn-all-links">
+          <div class="ctn-link"><span class="link-bullet">/&nbsp;</span><a class="link-btn" href="mailto:reber@berkeley.edu" onclick="copy_email()" id="email_button">Email</a></div>
+          <div class="ctn-link"><span class="link-bullet">/&nbsp;</span><a class="link-btn" href="https://scholar.google.com/citations?user=8vNAr1IAAAAJ" target="_blank">Publications</a></div>
+          <div class="ctn-link"><span class="link-bullet">/&nbsp;</span><a class="link-btn" href="./files/REBER_Resume_Mar23.pdf" target="_blank">Resume</a></div>
+          <div class="ctn-link"><span class="link-bullet">/&nbsp;</span><a class="link-btn" href="https://github.com/PhilippReber" target="_blank">Code</a></div>
+          <div class="ctn-link"><span class="link-bullet">/&nbsp;</span><a class="link-btn" href="https://twitter.com/MagneticTides" target="_blank">Where I work</a></div>
+        </div>
+        <div class="social-bar">
+          <button class="btn-social", role="button" onclick="window.open('https://twitter.com/reberphil')" target="_blank">
             <svg viewBox="0 0 1024 1024" class="social_icon">
               <path
                 d="M1024 226.4c-37.6 16.8-78.2 28-120.6 33 43.4-26 76.6-67.2 92.4-116.2-40.6 24-85.6 41.6-133.4 51-38.4-40.8-93-66.2-153.4-66.2-116 0-210 94-210 210 0 16.4 1.8 32.4 5.4 47.8-174.6-8.8-329.4-92.4-433-219.6-18 31-28.4 67.2-28.4 105.6 0 72.8 37 137.2 93.4 174.8-34.4-1-66.8-10.6-95.2-26.2 0 0.8 0 1.8 0 2.6 0 101.8 72.4 186.8 168.6 206-17.6 4.8-36.2 7.4-55.4 7.4-13.6 0-26.6-1.4-39.6-3.8 26.8 83.4 104.4 144.2 196.2 146-72 56.4-162.4 90-261 90-17 0-33.6-1-50.2-3 93.2 59.8 203.6 94.4 322.2 94.4 386.4 0 597.8-320.2 597.8-597.8 0-9.2-0.2-18.2-0.6-27.2 41-29.4 76.6-66.4 104.8-108.6z"
               ></path>
             </svg>
           </button>
-          <button class="button_social", role="button" onclick="window.open('https://linkedin.com/in/preber')" target="_blank">
+          <button class="btn-social", role="button" onclick="window.open('https://linkedin.com/in/preber')" target="_blank">
             <svg viewBox="0 0 1024 1024" class="social_icon">
               <path
                 d="M384 384h177.106v90.782h2.532c24.64-44.194 84.958-90.782 174.842-90.782 186.946 0 221.52 116.376 221.52 267.734v308.266h-184.61v-273.278c0-65.184-1.334-149.026-96.028-149.026-96.148 0-110.82 70.986-110.82 144.292v278.012h-184.542v-576z"
@@ -60,7 +42,7 @@
               ></path>
             </svg>
           </button>
-          <button class="button_social", role="button" onclick="window.open('https://github.com/PhilippReber')" target="_blank">
+          <button class="btn-social", role="button" onclick="window.open('https://github.com/PhilippReber')" target="_blank">
             <svg viewBox="0 0 1024 1024" class="social_icon">
               <path
                 d="M512.008 12.642c-282.738 0-512.008 229.218-512.008 511.998 0 226.214 146.704 418.132 350.136 485.836 25.586 4.738 34.992-11.11 34.992-24.632 0-12.204-0.48-52.542-0.696-95.324-142.448 30.976-172.504-60.41-172.504-60.41-23.282-59.176-56.848-74.916-56.848-74.916-46.452-31.778 3.51-31.124 3.51-31.124 51.4 3.61 78.476 52.766 78.476 52.766 45.672 78.27 119.776 55.64 149.004 42.558 4.588-33.086 17.852-55.68 32.506-68.464-113.73-12.942-233.276-56.85-233.276-253.032 0-55.898 20.004-101.574 52.76-137.428-5.316-12.9-22.854-64.972 4.952-135.5 0 0 43.006-13.752 140.84 52.49 40.836-11.348 84.636-17.036 128.154-17.234 43.502 0.198 87.336 5.886 128.256 17.234 97.734-66.244 140.656-52.49 140.656-52.49 27.872 70.528 10.35 122.6 5.036 135.5 32.82 35.856 52.694 81.532 52.694 137.428 0 196.654-119.778 239.95-233.79 252.624 18.364 15.89 34.724 47.046 34.724 94.812 0 68.508-0.596 123.644-0.596 140.508 0 13.628 9.222 29.594 35.172 24.566 203.322-67.776 349.842-259.626 349.842-485.768 0-282.78-229.234-511.998-511.992-511.998z"
@@ -69,77 +51,36 @@
           </button>
         </div>
       </div>
-      
-    </div>   
-  </div>
-
-  
-
-  <div class="ctn-section" id="about-section">
-    <div class="ctn-about-mid">
-      <div class="ctn-section-header">
-        <span>Projects</span>
-      </div>
-      <div class="ctn-content-row">
-        <div class="ctn-project-col-collapsible">
-          <div class="ctn-video">
-            <video autoplay muted loop>
-              <source src="./assets/bci.mp4" type="video/mp4" />
+      <div class="ctn-project-subsection">
+        <span class="projects-title">Research lines</span>
+        <div class="projects-grid">
+          <div class="project-tile">
+            <video muted loop>
+              <source src="./assets/bci.mp4" type="video/mp4" id="video" />
             </video>
+            <div class="text-overlay">Pushing the limits of brain machine interaction with novel adaptive brain stimulation systems</div>
           </div>
-          <span class="text-header">
-            Pushing the limits of brain machine interaction with novel adaptive brain stimulation systems.
-          </span>
-          <span class="text-content"> 
-            Through my work, I aim to develop a better understanding of how cognitive function emerges from the complex interaction of brain networks.
-            I study the electrophysiological patterns of the brain to identify novel targets for non-invasive brain stimulation. 
-            I build novel adaptive brain stimulation systems that target the brain with increased precision, flexibility and strength. I strive for developing  more effective neurotechnological treatments for those suffering from mental health conditions.
-            Through my work, I aim to develop a better understanding of how cognitive function emerges from the complex interaction of brain networks.
-            I study the electrophysiological patterns of the brain to identify novel targets for non-invasive brain stimulation. 
-            I build novel adaptive brain stimulation systems that target the brain with increased precision, flexibility and strength. I strive for developing  more effective neurotechnological treatments for those suffering from mental health conditions.
-            <span class="text-footer">
-              <br><br>video by cottonbro studio
-            </span>
-          </span>
-        </div>
-        <div class="ctn-project-col-collapsible">
-          <div class="ctn-video">
-            <video autoplay muted loop>
-              <source src="./assets/brain.mp4" type="video/mp4" />
+          <div class="project-tile">
+            <video muted loop>
+              <source src="./assets/brain.mp4" type="video/mp4" id="video"/>
             </video>
+            <div class="text-overlay">Decoding human cognition from brain electrophysiology</div>
           </div>
-          <span class="text-header">
-            Decoding human cognition and emotion for better stimulation targets.
-          </span>
-          <span class="text-content"> 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            <span class="text-footer">
-              <br><br>section under construction...
-            </span>
-          </span>
-        </div>
-        <div class="ctn-project-col-collapsible">
-          <div class="ctn-video">
-            <video autoplay muted loop>
-              <source src="./assets/mental1.mp4" type="video/mp4" />
+          <div class="project-tile">
+            <video muted loop>
+              <source src="./assets/mental1.mp4" type="video/mp4" id="video"/>
             </video>
+            <div class="text-overlay">Investigating brain dysfunction to develop better treatments</div>
           </div>
-          <span class="text-header">
-            Investigating cognitive dysfunction to develop more effective treatments.
-          </span>
-          <span class="text-content"> 
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-            <span class="text-footer">
-              <br><br>video by Tima Miroshnichenko
-            </span>
-          </span>
+          <span class="note">Project section under construction...</span>
         </div>
-        
       </div>
     </div>
+    
   </div>
 
   <script>
+
     // copy email to clipboard
     function copy_email() {
       var mail_to = "reber@berkeley.edu";
@@ -151,27 +92,18 @@
       }, 2000);
     }
 
-    // scroll to element on page
-    function scroll_to() {
-      var element = document.getElementById("about-section");
-      element.scrollIntoView({behavior: "smooth"});
-    }
-
-    // create collapsible
-    var coll = document.getElementsByClassName("ctn-project-col-collapsible");
-    var i;
-    for (i = 0; i < coll.length; i++) {
-      coll[i].addEventListener("click", function() {
-        this.classList.toggle("active");
-        // var content = this.nextElementSibling;
-        var content = this.lastElementChild;
-        if (content.style.maxHeight){
-          content.style.maxHeight = null;
-        } else {
-          content.style.maxHeight = content.scrollHeight + "px";
-        }
+    // play videos on hover
+    const videos = document.querySelectorAll("video");
+    videos.forEach(video => {
+      tile = video.parentNode;
+      tile.addEventListener('mouseenter', () => {
+        video.play();
       });
-}
-
+      
+      tile.addEventListener('mouseleave', () => {
+        video.pause();
+        // video.currentTime = 0;
+      });
+    });
   </script>
 </body>
