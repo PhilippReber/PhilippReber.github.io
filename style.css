@@ -19,7 +19,13 @@
     width: 80%;
     padding: 10%;
 }
-
+.ctn-portrait-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: start;
+}
 .ctn-portrait {
     width: 170px;
     height: 170px;  
@@ -41,7 +47,6 @@
     padding-bottom: 30px;
     font-family: Inter;
     font-size: 30px;
-    font-weight: 600;
     letter-spacing: -0.04em;
     width: 850px;
     max-width: 100%;
@@ -49,6 +54,7 @@
 }
 .header-head {
     color: var(--color-gray-dark);
+    font-weight: 600;
 }
 .header-text {
     font-weight: 500;
@@ -59,14 +65,14 @@
     flex-direction: row;
     justify-content: flex-start;
     width: 100%;
-    margin-top: 40px;
+    margin-top: 80px;
 
 }
 .ctn-left {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    width: 400px;
+    justify-content: space-between;
+    width: 300px;
     align-items: left;
     
 }
@@ -74,7 +80,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    width: 100%;
+    width: 300px;
     align-items: left;
 }
 .link-bullet {
@@ -95,6 +101,7 @@
     margin-bottom: 5px;
     color: #323232;
     cursor: pointer;
+    transition: color 0.2s;
 }
 .link-btn:hover {
     color: var(--color-olive-light);
@@ -103,7 +110,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 50px;
     width: 100px;
 }
 .btn-social {
@@ -187,39 +193,36 @@
     text-align: right;
 }
 
-.logo-bar {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    align-items: start;
-    width: 100%;
-    height: 100px;
-    margin-top: 100px;
-}
-.logo {
-    height: 60px;
-    width: 100%;
-    object-fit: contain;
-    float: left;
+.ctn-tweet {
+    margin-right: 60px;
+    margin-top: 30px;
 }
 
 @media screen and (max-width: 1050px) {
+    .header {
+        font-size: 20px;
+    }
+    .ctn-portrait-row {
+        align-items: center;
+    }
     .ctn-section-1 {
-        flex-direction: column;
-        justify-content: flex-start;
+        margin-top: 30px;
     }
     .ctn-left {
-        flex-direction: row;
-        justify-content: space-between;
-        width: 100%;
+        justify-content: flex-start;
+        margin-top: 20px;
+        margin-bottom: 20px;
 
+    }
+    .ctn-left {
+        justify-content: flex-start;
     }
     .social-bar {
         flex-direction: column;
         justify-content: space-between;
         margin-top: 0;
+        height: 100px;
         width: fit-content;
-        
     }
 
     .projects-title {
@@ -229,9 +232,33 @@
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr;
     }
-
+   
 
 }
+
+@media screen and (max-width: 700px) {
+    .ctn-landing {
+        width: 94%;
+        padding: 3%;
+    }
+    .ctn-section-1 {
+        margin-top: 0;
+        flex-direction: column;
+    }
+    .ctn-tweet {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+    .ctn-left {
+        justify-content: flex-start;
+        width: 100%;
+
+    }
+}
+
+
 
 @media screen and (min-width: 1500px) {
     .header {
