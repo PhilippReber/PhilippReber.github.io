@@ -8,7 +8,7 @@
   <div class="ctn-landing">
     <div class="ctn-portrait-row">
       <div class="ctn-portrait">
-        <img class="portrait" src="./assets/portrait_gold.jpg" alt="image" />
+        <img class="portrait" src="./assets/portrait.jpg" alt="image" />
       </div>
       <div class="social-bar">
         <button class="btn-social", role="button" onclick="window.open('https://twitter.com/reberphil')" target="_blank">
@@ -63,18 +63,21 @@
           <div class="project-tile">
             <video playsinline muted loop>
               <source src="./assets/bci.mp4" type="video/mp4" id="video" />
+              <img src="./assets/bci_thumb.png" alt="BCI Thumbnail">
             </video>
             <div class="text-overlay">Pushing the limits of brain machine interaction with novel adaptive brain stimulation systems</div>
           </div>
           <div class="project-tile">
             <video playsinline muted loop>
               <source src="./assets/brain.mp4" type="video/mp4" id="video"/>
+              <img src="./assets/brain_thumb.png" alt="Brain Thumbnail">
             </video>
             <div class="text-overlay">Decoding human cognition from brain electrophysiology</div>
           </div>
           <div class="project-tile">
             <video playsinline muted loop>
-              <source src="./assets/mental1.mp4" type="video/mp4" id="video"/>
+              <source src="./assets/group.mp4" type="video/mp4" id="video"/>
+              <img src="./assets/group_thumb.png" alt="Group Thumbnail">
             </video>
             <div class="text-overlay">Investigating brain dysfunction to develop better treatments</div>
           </div>
@@ -101,15 +104,21 @@
     // play videos on hover
     const videos = document.querySelectorAll("video");
     videos.forEach(video => {
-      tile = video.parentNode;
-      tile.addEventListener('mouseenter', () => {
-        video.play();
-      });
       
-      tile.addEventListener('mouseleave', () => {
-        video.pause();
-        // video.currentTime = 0;
-      });
+      if (window.innerWidth > 700) {
+        tile = video.parentNode;
+        tile.addEventListener('mouseenter', () => {
+          video.play();
+        });
+        
+        tile.addEventListener('mouseleave', () => {
+          video.pause();
+          // video.currentTime = 0;
+        });
+      } else {
+        video.setAttribute("playsinline", "");
+        video.play();
+      }
     });
 
   </script>
