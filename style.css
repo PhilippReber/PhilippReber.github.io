@@ -5,6 +5,8 @@
     --color-gray-mid-light: #cfcece;
     --color-gray-light: #F5F5F5;
     --color-olive-light: #6A8C82;
+    --color-reddish: #e77a83;
+    --color-red: #de3c4a;
 }
 * {
     margin:0;
@@ -89,19 +91,27 @@
     font-weight: 200;
     font-size: 16px;
 }
-.link-btn {
+.link-btn, .link-btn-email{
     border:0;
     font-family: Inter;
     font-weight: 500;
     font-size: 20px;
     letter-spacing: -0.03em;
     text-align: left;
-    text-decoration: underline 0.1px #6A8C82;
+    text-decoration: underline 0.1px var(--color-olive-light);
     text-underline-offset: 0.1em;
     margin-bottom: 5px;
-    color: #323232;
+    color: var(--color-gray-dark);
     cursor: pointer;
     transition: color 0.2s;
+}
+.link-btn-email {
+    color: var(--color-red);
+    text-decoration: underline 0.1px var(--color-reddish);
+
+}
+.link-btn-email:hover {
+    color: var(--color-reddish);
 }
 .link-btn:hover {
     color: var(--color-olive-light);
@@ -113,18 +123,20 @@
     width: 100px;
 }
 .btn-social {
-  background: transparent;
-  border: 0;
+    background: transparent;
+    border: 0;
+    transition: transform 0.2s;
+    cursor: pointer;
+
 }
 .social_icon {
-  width: 25;
-  height: 25; 
-  fill: var(--color-gray-dark);
-  transition: transform 0.2s;
+    width: 25;
+    height: 25; 
+    fill: var(--color-gray-dark);
 }
-.social_icon:hover {
-  transform: scale(1.2);
-  cursor: pointer;
+.btn-social:hover {
+    transform: rotate(2turn) scale(1.2);
+
 }
 .ctn-project-subsection {
     display: flex;
